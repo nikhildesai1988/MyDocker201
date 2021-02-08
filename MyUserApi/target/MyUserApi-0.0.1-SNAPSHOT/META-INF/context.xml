@@ -1,0 +1,6 @@
+<Context>
+<Resource name="jdbc/userdetails" global="jdbc/userdetails" auth="Container" type="javax.sql.DataSource"
+               maxActive="100" maxIdle="30" maxWait="10000"
+               username="root" password="password" driverClassName="com.mysql.jdbc.Driver"
+               url="jdbc:mysql://:3306/myschema"/>
+</Context>
