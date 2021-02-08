@@ -2,5 +2,5 @@
 <Resource name="jdbc/userdetails" global="jdbc/userdetails" auth="Container" type="javax.sql.DataSource"
                maxActive="100" maxIdle="30" maxWait="10000"
                username="root" password="password" driverClassName="com.mysql.jdbc.Driver"
-               url="jdbc:mysql://:3306/User"/>
+               url="jdbc:mysql://172.17.0.2:3306/userdetails"/>
 </Context>
